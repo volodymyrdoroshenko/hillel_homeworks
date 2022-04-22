@@ -13,6 +13,7 @@ public class Lottery {
             array2[i] = (int) (Math.random() * 10);
         }
 
+
         Arrays.sort(array1);
         Arrays.sort(array2);
 
