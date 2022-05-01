@@ -1,6 +1,6 @@
 package com.hillel.doroshenko.homeworks.homework2;
 
-public class simpleArithmetic {
+public class SimpleArithmetic {
     public static void main(String[] args) {
         float a = 3.56f;
         float b = 1.87f;
