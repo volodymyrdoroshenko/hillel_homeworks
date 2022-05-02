@@ -80,30 +80,26 @@ public class TicTacToe {
 
     //1 - person, fill "X", 0 - computer, fill "0"
     public static void fillCell(int[][] array, int a, int b) {
-        int temp = 1;
-        if (b == 0) {
-            temp = 0;
-        }
         switch (a) {
-            case 1 -> array[0][0] = temp;
-            case 2 -> array[0][1] = temp;
-            case 3 -> array[0][2] = temp;
-            case 4 -> array[1][0] = temp;
-            case 5 -> array[1][1] = temp;
-            case 6 -> array[1][2] = temp;
-            case 7 -> array[2][0] = temp;
-            case 8 -> array[2][1] = temp;
-            case 9 -> array[2][2] = temp;
+            case 1 -> array[0][0] = b;
+            case 2 -> array[0][1] = b;
+            case 3 -> array[0][2] = b;
+            case 4 -> array[1][0] = b;
+            case 5 -> array[1][1] = b;
+            case 6 -> array[1][2] = b;
+            case 7 -> array[2][0] = b;
+            case 8 -> array[2][1] = b;
+            case 9 -> array[2][2] = b;
         }
     }
 
     public static void printArray(int[][] array) {
         System.out.println();
-        for (int i = 0; i < array.length; i++) {
-            for (int j = 0; j < array[i].length; j++) {
-                if (array[i][j] == 0) {
+        for (int[] ints : array) {
+            for (int j = 0; j < ints.length; j++) {
+                if (ints[j] == 0) {
                     System.out.print("0\t");
-                } else if (array[i][j] == 1) {
+                } else if (ints[j] == 1) {
                     System.out.print("X\t");
                 } else {
                     System.out.print("*\t");
