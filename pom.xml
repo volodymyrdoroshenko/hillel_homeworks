@@ -22,6 +22,11 @@
             <version>5.8.2</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>com.github.fracpete</groupId>
+            <artifactId>musicg</artifactId>
+            <version>1.4.2.2</version>
+        </dependency>
     </dependencies>
 
     <build>
@@ -39,7 +44,7 @@
                     </archive>
                 </configuration>
             </plugin>
-        </plugins>
+                    </plugins>
     </build>
-    
+
 </project>
