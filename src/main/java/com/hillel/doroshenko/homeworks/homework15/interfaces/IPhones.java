@@ -1,6 +1,6 @@
 package com.hillel.doroshenko.homeworks.homework15.interfaces;
 
-public class iPhones implements Smartphones, iOS {
+public class IPhones implements Smartphones, IOS {
     @Override
     public void call() {
         System.out.println("Call");

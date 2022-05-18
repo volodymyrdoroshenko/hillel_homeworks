@@ -9,7 +9,7 @@ public class Main {
         android1.internet();
         android1.linuxOS();
 
-        iPhones iPhone1 = new iPhones();
+        IPhones iPhone1 = new IPhones();
         System.out.println();
         iPhone1.call();
         iPhone1.sms();
